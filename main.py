@@ -71,7 +71,7 @@ class Szuperhos:
         :param lista: str lista
         :return: None
         """
-        if type(lista) == str:
+        if isinstance(lista, str):
             self.__kepessegek.append(lista)
         else:
             for i in lista:
